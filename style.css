@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Wix Madefor Display", serif;
+    transition: .4s;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    padding-inline: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.r1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.center a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.r1 i{
+    font-size: 25px;
+}
+.r2 button{
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.r3 button{
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    display: none;
+}
+.r4{
+    font-size: 30px;
+    display: none;
+}
+
+.main{
+    height: 90vh;
+    width: 100%;
+    background-image: url("https://static.wixstatic.com/media/c837a6_977fd116499b43ae8f309afaf18cbade~mv2.jpg/v1/fill/w_1903,h_873,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_977fd116499b43ae8f309afaf18cbade~mv2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    object-fit: cover;
+}
+.labale{
+    height: 25px;
+    width: 70px;
+    background-color: rgb(254,199,79);
+    position: absolute;
+    bottom: 85%;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.labale p{
+    font-size: 14px;
+    color: gray;
+}
+.main1{
+    height: 300px;
+    width: auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main1 h1{
+    font-size: 5rem;
+}
+.main1 p{
+    font-size: 18px;
+}
+.main1 button{
+    width: 150px;
+    padding-block: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(238,187,74);
+    font-weight: 500;
+    border: none;
+}
+.main2{
+    height: auto;
+    width: auto;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.sale{
+    height: 310px;
+    width: 500px;
+    background-color: rgba(206, 209, 191, 0.642);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.sale1{
+    height: 290px;
+    width: 70%;
+    background-color: rgb(238,187,74);
+    position: relative;
+}
+.sale1 img{
+    height: 290px;
+    width: 100%;
+    object-fit: cover;
+}
+.sale2{
+    height: 290px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s1{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.s1 p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.s1 h6{
+    font-size: 14px;
+}
+.s1 span{
+    color: gray;
+}
+.s2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.s2 button{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+
+.products{
+    width: 100%;
+    height: 90vh;
+    margin-top: 90px;
+    padding-inline: 1vw;
+}
+.text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text button{
+    padding: 8px 17px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.text button:hover{
+    background-color: black;
+    color: white;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.card{
+    width: 24%;
+    height: 100%;
+}
+.card-top{
+    width: 100%;
+    position: relative;
+}
+.card-top button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 4px 10px;
+    background-color: white;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-top:hover .img{
+    opacity: 1;
+}
+.card-top img{
+    border-radius: 10px;
+}
+.card-bottom{
+    width: 100%;
+    height: auto;
+}
+.card-bottom h5{
+    margin-top: 15px;
+}
+.card-bottom p{
+    font-size: 15px;
+    margin-top: 9px;
+}
+.card-bottom del{
+    color: rgb(131, 129, 129);
+    margin-left: 5px;
+    font-weight: 500;
+}
+@media(max-width: 1040px){
+    .card{
+        width: 31%;
+
+    }
+}
+@media(max-width: 768px){
+    .card{
+        width: 48%;
+
+    }
+}
+@media(max-width: 480px){
+    .card{
+        width: 100%;
+
+    }
+}
+
+@media (max-width:800px) {
+    .center{
+        display: none;
+    }
+    .right{
+        gap: 20px;
+    }
+    .r3 button{
+        display: flex;
+    }
+    .r1{
+        display: none;
+    }
+    .main1 h1{
+        font-size: 60px;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+.main2 {
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@media (max-width:480px) {
+    .navbar{
+        padding-inline: 8vw;
+    }
+    .r2{
+        display: none;
+    }
+    .r3{
+        display: none;
+    }
+    .r4{
+        display: flex;
+    }
+    .main1 h1{
+        font-size: 50px;
+    }
+    .sale{
+        width: 400px;
+    }
+}
+
+@media (max-width:560px) {
+    .main2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    .sale{
+        width: 100%;
+    }
+    .s2 button{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
