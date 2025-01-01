@@ -198,17 +198,7 @@
     }
 }
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-.main2 {
-    animation: bounce 1s infinite ease-in-out;
-}
+
 
 @media (max-width:560px) {
     .main2{
